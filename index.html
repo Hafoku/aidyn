@@ -7,27 +7,16 @@ initial-scale=1.0">
 <title>Yup!</title>
 </head>
 <style>
-@media (max-width: 1080px),(max-height: 2000) {
-  .container {
-    width: 768px;
-  }
-
-  nav {
-text-align: center;
-margin-top: 30px;
-background-color: rgba(0, 0, 0, 0.5);
+@media (max-width: 670px) {
+  .nvv {
 min-height: 80px;
-flex-wrap: wrap;
 display: flex;
-}
-
-section {
-margin: 600px;
-padding: 60px;
-border: 1px solid #ccc;
-background-color: #f7f7f7;
-border-radius: 5px;
-background-color: rgba(0, 0, 0, 0.5);
+flex-direction: column;
+height: 400px;
+}   
+    nav{
+        flex-direction: column;
+        display: flex;
 }
 
 }
@@ -54,7 +43,7 @@ nav {
 text-align: center;
 margin-top: 30px;
 background-color: rgba(0, 0, 0, 0.5);
-height: 40px;
+height: 100%;
 padding: 30px;
 border: 1px solid white ;
 border-radius: 10px;
@@ -107,12 +96,14 @@ display: none;
 <header>
 <h1>Yup!</h1>
 </header>
+<div class="nvv">
 <nav>
 <a class="tab-link" href="#about">О нас</a>
 <a class="tab-link" href="#tovari">Товары</a>
 <a class="tab-link" href="#experience">Время работы</a>
 <a class="tab-link" href="#contact">Контакты</a>
 </nav>
+</div>
 <section id="about" class="hidden">
 <h2>О нас</h2>
 <p>Мы на рынке уже более 5 лет, и успешно продаем аниме товары! Наш магазин находится на ул. Пушкина дом Колотушкина в г. Астана.</p>
