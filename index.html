@@ -7,10 +7,29 @@ initial-scale=1.0">
 <title>Yup!</title>
 </head>
 <style>
-@media (min-width: 768px) {
+@media (max-width: 1080px),(max-height: 2000) {
   .container {
     width: 768px;
   }
+
+  nav {
+text-align: center;
+margin-top: 30px;
+background-color: rgba(0, 0, 0, 0.5);
+min-height: 80px;
+flex-wrap: wrap;
+display: flex;
+}
+
+section {
+margin: 600px;
+padding: 60px;
+border: 1px solid #ccc;
+background-color: #f7f7f7;
+border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
 }
 
 body {
@@ -24,22 +43,29 @@ color: #fff;
 }
 header {
 text-align: center;
-background-color: gray;
 color: #fff;
 padding: 20px;
 background-color: rgba(0, 0, 0, 0.5);
+border: 1px solid white;
+border-radius: 10px;
+
 }
 nav {
 text-align: center;
 margin-top: 30px;
 background-color: rgba(0, 0, 0, 0.5);
-height: 0px;
+height: 40px;
+padding: 30px;
+border: 1px solid white ;
+border-radius: 10px;
 }
 nav a {
 margin: 10px;
 text-decoration: none;
 color: gray;
 font-weight: bold;
+border: 1px solid white ;
+border-radius: 10px;
 }
 section {
 margin: 20px;
